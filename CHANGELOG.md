@@ -6,8 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Changes that change the generated API have a ⚠️.
 
-## [0.25.0] 2025-01-30
+## [0.25.1] 2025-09-05
+### Fixed
+- Fix ClosureDataManager corruption when building with -Dpreview_mt, thanks @refi64 (#179)
+- Fix incomplete type declaration for `ListStore#splice`, thanks @BigBoyBarney (#181)
 
+## [0.25.0] 2025-01-30
 ### Added
 - Support MSYS2, thanks @HertzDevil (#169)
 
